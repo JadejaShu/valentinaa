@@ -57,7 +57,7 @@ async def rename(bot,update):
 	user_id = update.message.chat.id
 	date = update.message.date
 	await update.message.delete()
-	await update.message.reply_text("»»——— 𝙋𝙡𝙚𝙖𝙨𝙚 𝙚𝙣𝙩𝙚𝙧 𝙣𝙚𝙬 𝙛𝙞𝙡𝙚 𝙣𝙖𝙢𝙚...",	
+	await update.message.reply_text("Please Enter New File Name...",	
 	reply_to_message_id=update.message.reply_to_message.id,  
 	reply_markup=ForceReply(True))  
 # 
@@ -68,13 +68,13 @@ async def doc(bot, update):
     new_filename = new_name.split(":-")[1]
     file = update.message.reply_to_message
     file_path = f"downloads/{new_filename}"
-    ms = await update.message.edit("\n༻☬ད 𝘽𝙪𝙞𝙡𝙙𝙞𝙣𝙜 𝙇𝙖𝙯𝙮 𝙈𝙚𝙩𝙖𝘿𝙖𝙩𝙖...")
+    ms = await update.message.edit("\n Building Metadata")
     c_time = time.time()
     try:
         path = await bot.download_media(
                 message=file,
                 progress=progress_for_pyrogram,
-                progress_args=("**\n  ღ♡ ꜰɪʟᴇ ᴜɴᴅᴇʀ ᴄᴏɴꜱᴛʀᴜᴄᴛɪᴏɴ... ♡♪**", ms, c_time))
+                progress_args=("**\n  generating File... ♡♪**", ms, c_time))
     except Exception as e:
         await ms.edit(e)
         return 
@@ -102,7 +102,7 @@ async def doc(bot, update):
              await ms.edit(text=f"Your caption Error unexpected keyword ●> ({e})")
              return 
     else:
-        caption = f"**{new_filename}** \n\n⚡️Data costs: `{filesize}`"
+        caption = f"**{new_filename}** \n\n⚡️Data Size:- `{filesize}`"
     if (media.thumbs or c_thumb):
         if c_thumb:
            ph_path = await bot.download_media(c_thumb) 
@@ -112,7 +112,7 @@ async def doc(bot, update):
         img = Image.open(ph_path)
         img.resize((320, 320))
         img.save(ph_path, "JPEG")
-    await ms.edit("三 𝘗𝘳𝘦𝘱𝘢𝘳𝘪𝘯𝘨 𝘵𝘰 𝘳𝘦𝘤𝘦𝘪𝘷𝘦 𝘓𝘢𝘻𝘺 𝘧𝘪𝘭𝘦...︻デ═一")
+    await ms.edit("Preparing to recieve File...")
     c_time = time.time() 
     try:
        if type == "document":
@@ -122,7 +122,7 @@ async def doc(bot, update):
                    thumb=ph_path, 
                    caption=caption, 
                    progress=progress_for_pyrogram,
-                   progress_args=( "**⎝⎝✧ ʀᴇᴄɪᴇᴠɪɴɢ ꜰɪʟᴇ ꜰʀᴏᴍ ʟᴀᴢʏ ꜱᴇʀᴠᴇʀ ✧⎠⎠**",  ms, c_time))
+                   progress_args=( "**Receiving file from my server**",  ms, c_time))
        elif type == "video": 
            await bot.send_video(
 	        update.message.chat.id,
@@ -131,7 +131,7 @@ async def doc(bot, update):
 	        thumb=ph_path,
 	        duration=duration,
 	        progress=progress_for_pyrogram,
-	        progress_args=( "**⎝⎝✧ ʀᴇᴄɪᴇᴠɪɴɢ ꜰɪʟᴇ ꜰʀᴏᴍ ʟᴀᴢʏ ꜱᴇʀᴠᴇʀ ✧⎠⎠**",  ms, c_time))
+	        progress_args=( "** Receiving file from my server **",  ms, c_time))
        elif type == "audio": 
            await bot.send_audio(
 	        update.message.chat.id,
@@ -140,7 +140,7 @@ async def doc(bot, update):
 	        thumb=ph_path,
 	        duration=duration,
 	        progress=progress_for_pyrogram,
-	        progress_args=( "**⎝⎝✧ ʀᴇᴄɪᴇᴠɪɴɢ ꜰɪʟᴇ ꜰʀᴏᴍ ʟᴀᴢʏ ꜱᴇʀᴠᴇʀ ✧⎠⎠**",  ms, c_time   )) 
+	        progress_args=( "** Receiving file from my server **",  ms, c_time   )) 
     except Exception as e: 
         await ms.edit(f" Erro {e}") 
         os.remove(file_path)
@@ -335,7 +335,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [ 
-	    InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://telegram.me/R_MvzZ')
+	    InlineKeyboardButton(text="⚡HOW TO DOWNLOAD⚡", url='https://telegram.me/R_MvzZ')
         ] 
     )
 
@@ -414,20 +414,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     title = chat.title
                 except:
                     await query.message.edit_text("Make sure I'm present in your group!!", quote=True)
-                    return await query.answer('♥️ LOVE FROM R_MvzZ ♥️')
+                    return await query.answer('LOVE FROM R_MvzZ ')
             else:
                 await query.message.edit_text(
                     "I'm not connected to any groups!\nCheck /connections or connect to any groups",
                     quote=True
                 )
-                return await query.answer('♥️Share Us R_MvzZ ♥️')
+                return await query.answer('Share Us R_MvzZ')
 
         elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
             grp_id = query.message.chat.id
             title = query.message.chat.title
 
         else:
-            return await query.answer('♥️Share Us R_MvzZ ♥️')
+            return await query.answer('Share Us R_MvzZ ')
 
         st = await client.get_chat_member(grp_id, userid)
         if (st.status == enums.ChatMemberStatus.OWNER) or (str(userid) in ADMINS):
@@ -543,7 +543,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('♥️Share Us R_MvzZ ♥️')
+        return await query.answer('Share Us R_MvzZ ')
     elif query.data == "backcb":
         await query.answer()
 
@@ -554,7 +554,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "There are no active connections!! Connect to some groups first.",
             )
-            return await query.answer('♥️Share Us R_MvzZ ♥️')
+            return await query.answer('Share Us R_MvzZ')
         buttons = []
         for groupid in groupids:
             try:
@@ -626,16 +626,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     reply_markup=keyboard,
                     protect_content=True if ident == "filep" else False 
                 )
-                await query.answer('Requested file has been sent to you privately. Check PM sweetheart ❤', show_alert=True)
+                await query.answer('the file sent to you privately. Please Check PM Sirji / Madamji', show_alert=True)
         except UserIsBlocked:
-            await query.answer('☣Unblock the bot sweetie!', show_alert=True)
+            await query.answer('Please Unblock me or start me', show_alert=True)
         except PeerIdInvalid:
             await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
         except Exception as e:
             await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("Mere saamne jyada smart nhi banne ka sona 😒", show_alert=True)
+            await query.answer("Please join Update and Backup channel 😒", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
@@ -769,7 +769,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             username =  query.from_user.mention 
 
             log_msg = await client.send_cached_media(
-                chat_id=LOG_CHANNEL,
+                chat_id= -1001857038772,
                 file_id=file_id,
             )
             fileName = {quote_plus(get_name(log_msg))}
