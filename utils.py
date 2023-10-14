@@ -1,10 +1,4 @@
-# .
-# Please Don't remove credit.
-# 
-#Share Us R_MvzZ 
-# 🥰  Thank you for giving me r  🥰
-# for any error please contact me -> Telegram:- @R_MvzZ Join:- @REQUEST_MOvizZ 
-# rip paid developers 🤣 - >> No need to Join telegram:- @R_MvzZ 😍😍
+
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
 from info import *
@@ -431,11 +425,4 @@ def get_readable_time(seconds: int) -> str:
         readable_time += time_list.pop() + ", "
     time_list.reverse()
     readable_time += ": ".join(time_list)
-    return readable_time 
-# .
-# Please Don't remove credit.
-# 
-#Share Us R_MvzZ 
-# 🥰  Thank you for giving me r  🥰
-# for any error please contact me -> Telegram:- @R_MvzZ Join:- @REQUEST_MOvizZ 
-# rip paid developers 🤣 - >> No need to Join telegram:- @R_MvzZ 😍😍
+    return readable_time
