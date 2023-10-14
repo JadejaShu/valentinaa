@@ -1,11 +1,11 @@
-    # Credit @LazyDeveloper.
+    # .
     # Please Don't remove credit.
-    # Born to make history @LazyDeveloper !
+    # 
 
-    # Thank you LazyDeveloper for helping us in this Journey
-    # 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
+    #Share Us R_MvzZ 
+    # 🥰  Thank you for giving me r  🥰
 
-    # for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
+    # for any error please contact me -> Telegram:- @R_MvzZ Join:- @REQUEST_MOvizZ 
 
 
 # import telegram
@@ -54,20 +54,20 @@
 
 # # Start the bot and set up the message handlers
 # updater = telegram.Updater('YOUR_API_TOKEN', use_context=True)
-# updater.dispatcher.add_handler(telegram.ext.MessageHandler(telegram.ext.Filters.text, handle_message))
+# updater.dispatcher.add_handler(telegram.extelegram.messageHandler(telegram.ext.Filters.text, handle_message))
 # updater.dispatcher.add_handler(telegram.ext.CallbackQueryHandler(handle_notify_callback))
 # updater.start_polling()
 # updater.idle()
 
 
 
-# Credit @LazyDeveloper.
+# .
 # Please Don't remove credit.
-# Born to make history @LazyDeveloper !
-# Thank you LazyDeveloper for helping us in this Journey
-# 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
-# for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
-# rip paid developers 🤣 - >> No need to buy paid source code while @LazyDeveloperr is here 😍😍
+# 
+#Share Us R_MvzZ 
+# 🥰  Thank you for giving me r  🥰
+# for any error please contact me -> Telegram:- @R_MvzZ Join:- @REQUEST_MOvizZ 
+# rip paid developers 🤣 - >> No need to Join telegram:- @R_MvzZ 😍😍
 
 
 

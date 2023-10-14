@@ -16,20 +16,20 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-Dev Channel Link : https://t.me/LazyDeveloper 
-Repo Link : https://github.com/LazyDeveloperr/LazyPrincess
+Dev Channel Link : https://telegram.me/R_MvzZ 
+Repo Link : https://telegram.me/REQUEST_MOvizZ
 License Link : https://github.com/LazyDeveloperr/LazyPrincess/blob/main/LICENSE
 # Removing this is strictly prohibited ! Don't remove this all without the 
-permission of LazyDeveloperr
+permission ofR_MvzZ
 """
-    # Credit @LazyDeveloper.
+    # .
     # Please Don't remove credit.
-    # Born to make history @LazyDeveloper !
+    # 
 
-    # Thank you LazyDeveloper for helping us in this Journey
-    # 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
+    #Share Us R_MvzZ 
+    # 🥰  Thank you for giving me r  🥰
 
-    # for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
+    # for any error please contact me -> Telegram:- @R_MvzZ Join:- @REQUEST_MOvizZ 
 
 import asyncio
 from asyncio import sleep

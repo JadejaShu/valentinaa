@@ -1,8 +1,8 @@
-    # Credit @LazyDeveloper.
+    # .
     # Please Don't remove credit.
-        # Born to make history @LazyDeveloper !
+        # 
 
-    # Thank you LazyDeveloper for helping us in this Journey
+    #Share Us R_MvzZ 
 
 import math
 import time 

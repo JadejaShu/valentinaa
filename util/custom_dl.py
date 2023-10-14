@@ -1,10 +1,10 @@
-# Credit @LazyDeveloper.
+# .
 # Please Don't remove credit.
-# Born to make history @LazyDeveloper !
-# Thank you LazyDeveloper for helping us in this Journey
-# 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
-# for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
-# rip paid developers 🤣 - >> No need to buy paid source code while @LazyDeveloperr is here 😍😍
+# 
+#Share Us R_MvzZ 
+# 🥰  Thank you for giving me r  🥰
+# for any error please contact me -> Telegram:- @R_MvzZ Join:- @REQUEST_MOvizZ 
+# rip paid developers 🤣 - >> No need to Join telegram:- @R_MvzZ 😍😍
 import math
 import asyncio
 import logging
@@ -71,7 +71,7 @@ class ByteStreamer:
         This is required for getting the bytes from Telegram servers.
         """
 
-        media_session = client.media_sessions.get(file_id.dc_id, None)
+        media_session = clientelegram.media_sessions.get(file_id.dc_id, None)
 
         if media_session is None:
             if file_id.dc_id != await client.storage.dc_id():
@@ -116,7 +116,7 @@ class ByteStreamer:
                 )
                 await media_session.start()
             logging.debug(f"Created media session for DC {file_id.dc_id}")
-            client.media_sessions[file_id.dc_id] = media_session
+            clientelegram.media_sessions[file_id.dc_id] = media_session
         else:
             logging.debug(f"Using cached media session for DC {file_id.dc_id}")
         return media_session

@@ -1,11 +1,11 @@
-    # Credit @LazyDeveloper.
+    # .
     # Please Don't remove credit.
-    # Born to make history @LazyDeveloper !
+    # 
 
-    # Thank you LazyDeveloper for helping us in this Journey
-    # 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
+    #Share Us R_MvzZ 
+    # 🥰  Thank you for giving me r  🥰
 
-    # for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
+    # for any error please contact me -> Telegram:- @R_MvzZ Join:- @REQUEST_MOvizZ 
 
 from pyrogram import Client, filters
 from database.users_chats_db import db

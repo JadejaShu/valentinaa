@@ -1,11 +1,11 @@
 # Taken from megadlbot_oss <https://github.com/eyaadh/megadlbot_oss/blob/master/mega/webserver/routes.py>
 # Thanks to Eyaadh <https://github.com/eyaadh>
-# Credit @LazyDeveloper.
+# .
 # Please Don't remove credit.
-# Born to make history @LazyDeveloper !
-# Thank you LazyDeveloper for helping us in this Journey
-# 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
-# for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
+# 
+#Share Us R_MvzZ 
+# 🥰  Thank you for giving me r  🥰
+# for any error please contact me -> Telegram:- @R_MvzZ Join:- @REQUEST_MOvizZ 
 
 
 import re
@@ -29,7 +29,7 @@ routes = web.RouteTableDef()
 
 @routes.get("/", allow_head=True)
 async def root_route_handler(_):
-    return web.Response(text="Success is the journey of millions of failure and lots of hard work & smart logics. - @LazyDeveloperr -/-- Welcome to our #LazyFamily 🥰")
+    return web.Response(text="Success is the  of millions of failure and lots of hard work & smart logics. - @LazyDeveloperr -/-- Welcome to our #LazyFamily 🥰")
 
 
 @routes.get(r"/watch/{path:\S+}", allow_head=True)

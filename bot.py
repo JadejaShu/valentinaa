@@ -1,12 +1,12 @@
 import logging
 import logging.config
-# Credit @LazyDeveloper.
+# .
 # Please Don't remove credit.
-# Born to make history @LazyDeveloper !
-# Thank you LazyDeveloper for helping us in this Journey
-# 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
-# for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
-# rip paid developers 🤣 - >> No need to buy paid source code while @LazyDeveloperr is here 😍😍
+# 
+#Share Us R_MvzZ 
+# 🥰  Thank you for giving me r  🥰
+# for any error please contact me -> Telegram:- @R_MvzZ Join:- @REQUEST_MOvizZ 
+# rip paid developers 🤣 - >> No need to Join telegram:- @R_MvzZ 😍😍
 # Get logging configurations
 import sys
 import glob
@@ -45,7 +45,7 @@ loop = asyncio.get_event_loop()
 
 async def Lazy_start():
     print('\n')
-    print('Initalizing Lazy Bot')
+    print('Initalizing Bot')
     bot_info = await LazyPrincessBot.get_me()
     LazyPrincessBot.username = bot_info.username
     await initialize_clients()
