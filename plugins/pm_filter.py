@@ -617,6 +617,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             else:
                 # Create the inline keyboard button with callback_data
                 button = InlineKeyboardButton('JOIN BACKUP', url=f'https://telegram.me/REQUEST_MOvizz')
+                #'▶ Gen Stream / Download Link', callback_data=f'generate_stream_link:{file_id}'
                 # Create the inline keyboard markup with the button
                 keyboard = InlineKeyboardMarkup([[button]])
                 await client.send_cached_media(
