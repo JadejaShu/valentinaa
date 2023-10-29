@@ -2,10 +2,10 @@ class script(object):
     START_TXT = """Hello {},
 Myself <a href=https://telegram.me/{}>{}</a>,\n\nTrust me ! I can't even imagine how super-fast i can drive your Database channel \n\nAre you ready for Long Drive Baby...🤪"""
     LZTHMB_TEXT = """Hello {},
-Glad to see you here. LOVE FROM  <a href=https://telegram.me/R_MvzZ >R_MvzZ</a> work.\n\n<b>Thumbnail extracting</b> feature will be available soon, please join <a href=https://telegram.me/R_MvzZ>Dev Channel</a> and stay tuned for next <a href=https://telegram.me/R_MvzZ>update</a>.\n\n  🐞 Report Bug here: <a href=http://telegram.me/R_MvzZ>R_MvzZ Support</a>
+Glad to see you here. LOVE FROM  <a href=https://telegram.me/R_MvzZ >R_MvzZ</a> work.\n\n<b>Thumbnail extracting</b> feature will be available soon, please join <a href=https://telegram.me/R_MvzZ>Dev Channel</a> and stay tuned for next <a href=https://telegram.me/R_MvzZ>update</a>.\n\n  🐞 REPORT A BUG: <a href=http://telegram.me/Off_topic_discussion>R_MvzZ Support</a>
     """
     LZLINK_TEXT = """Hey {},
-Glad to see you here. LOVE FROM  <a href=https://telegram.me/R_MvzZ >R_MvzZ</a> work.\n\n<b>File to LiNK converting</b> feature will be available soon, please join <a href=https://telegram.me/R_MvzZ>Dev Channel</a> and stay tuned for next <a href=https://telegram.me/R_MvzZ>update</a>.\n\n  🐞 Report Bug here: <a href=http://telegram.me/R_MvzZ>R_MvzZ Support</a>
+Glad to see you here. LOVE FROM  <a href=https://telegram.me/R_MvzZ >R_MvzZ</a> work.\n\n<b>File to LiNK converting</b> feature will be available soon, please join <a href=https://telegram.me/R_MvzZ>Dev Channel</a> and stay tuned for next <a href=https://telegram.me/R_MvzZ>update</a>.\n\n  🐞 REPORT A BUG: <a href=http://telegram.me/Off_topic_discussion>R_MvzZ Support</a>
     """
     DNT_TEXT = """Hey sweetie {},
 Thanks for thinking about us.\nLOVE FROM  <a href=https://telegram.me/R_MvzZ >R_MvzZ</a> work.\n\n<b>For your kind information, we do not ask or force anyone for any kind of payment</b>. But if you really want to donate us then you can send money to us from below links...\n\n💵 Reach Donation Page : <a href=http://telegram.me/R_MvzZ>Click here...</a>\n\nT❤️ hank you so much..

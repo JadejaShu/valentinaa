@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🔔 Updates 🤖', url='https://telegram.me/R_MvzZ')
+                InlineKeyboardButton('Check Updates', url='https://telegram.me/R_MvzZ')
             ],
             [
-                InlineKeyboardButton('🙆🏻 Help 🦾', url=f"https://telegram.me/MissValentinaa_Bot?start=help"),
+                InlineKeyboardButton('Get Help', url=f"https://telegram.me/MissValentinaa_Bot?start=help"),
             ],[
             InlineKeyboardButton('JOIN BACKUP', url='https://telegram.me/REQUEST_MOvizZ')
             ],
@@ -50,9 +50,9 @@ async def start(client, message):
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://telegram.me/MissValentinaa_Bot?startgroup=true')
             ],[
             InlineKeyboardButton('🧞‍♀️ Search 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 Updates 🤖', url='https://telegram.me/R_MvzZ')
+            InlineKeyboardButton('Check Updates', url='https://telegram.me/R_MvzZ')
             ],[
-            InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
+            InlineKeyboardButton('Get Help', callback_data='help'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
             ],[
             InlineKeyboardButton('JOIN BACKUP', url='https://telegram.me/REQUEST_MOvizZ')
@@ -103,9 +103,9 @@ async def start(client, message):
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://telegram.me/MissValentinaa_Bot?startgroup=true')
             ],[
             InlineKeyboardButton('🧞‍♀️ Search 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 Updates 🤖', url='https://telegram.me/R_MvzZ')
+            InlineKeyboardButton('Check Updates', url='https://telegram.me/R_MvzZ')
             ],[
-            InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
+            InlineKeyboardButton('Get Help', callback_data='help'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
         ],[
             InlineKeyboardButton('JOIN BACKUP', url='https://telegram.me/REQUEST_MOvizZ')

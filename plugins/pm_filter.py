@@ -674,10 +674,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://telegram.me/MissValentinaa_Bot?startgroup=true')
         ], [
-            InlineKeyboardButton('🧞‍♀️ Search 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 Updates 🤖', url='https://telegram.me/R_MvzZ')
+            InlineKeyboardButton('CHECK UPDATES🤖', url='https://telegram.me/R_MvzZ')
         ], [
-            InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
+            InlineKeyboardButton('Get Help', callback_data='help'),
             InlineKeyboardButton('♥️ About ♥️', callback_data='about')
         ],[
             InlineKeyboardButton('JOIN BACKUP', url='https://telegram.me/REQUEST_MOvizZ')
@@ -708,7 +707,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🔔 Updates 🤖', url='https://telegram.me/R_MvzZ'),
+            InlineKeyboardButton('Check Updates', url='https://telegram.me/R_MvzZ'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -806,11 +805,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         # Send message to user
         try:
             btn = [[
-                InlineKeyboardButton(text=f"🔍 Search Here 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
+                InlineKeyboardButton(text=f"Search Again", url=f"https://telegram.me/Global_Ent_RMvzZ")
             ],[
-                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/R_MvzZ")
+                InlineKeyboardButton(text=f"REPORT A BUG", url=f"https://telegram.me/Off_topic_discussion")
             ],[
-                InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://telegram.me/REQUEST_MOvizZ")
+                InlineKeyboardButton(text=f"⚡️JOIN BACKUP", url=f"https://telegram.me/REQUEST_MOvizZ")
 
             ]]
             btn_lzdv = [
@@ -834,9 +833,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         # Send message to user
         try:
             btn = [[
-                InlineKeyboardButton(text=f"🔍 Search Here 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
+                InlineKeyboardButton(text=f"Search again", url=f"https://telegram.me/Global_Ent_RMvzZ")
             ],[
-                InlineKeyboardButton(text=f"REPORT BUG HERE", url=f"https://telegram.me/off_topic_discussion")
+                InlineKeyboardButton(text=f"REPORT A BUG", url=f"https://telegram.me/off_topic_discussion")
             ],[
                 InlineKeyboardButton(text=f"JOIN BACKUP CHANNEL", url=f"https://telegram.me/REQUEST_MOvizZ")
             ]]
@@ -861,11 +860,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         # Send message to user
         try:
             btn = [[
-                InlineKeyboardButton(text=f"🔍 Search Here 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
+                InlineKeyboardButton(text=f"Search Again", url=f"https://telegram.me/Global_Ent_RMvzZ")
             ],[
-                InlineKeyboardButton(text=f"REPORT BUG HERE", url=f"https://telegram.me/off_topic_discussion")
+                InlineKeyboardButton(text=f"REPORT A BUG", url=f"https://telegram.me/off_topic_discussion")
             ],[
-                InlineKeyboardButton(text=f"⚡️ JOIN BACKUP", url=f"https://telegram.me/REQUEST_MOvizZ")
+                InlineKeyboardButton(text=f"⚡️JOIN BACKUP", url=f"https://telegram.me/REQUEST_MOvizZ")
 
             ]]
             btn_lzdv = [
@@ -889,11 +888,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         # Send message to user
         try:
             btn = [[
-                InlineKeyboardButton(text=f"🔍 Search Here 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
+                InlineKeyboardButton(text=f"Search Again", url=f"https://telegram.me/Global_Ent_RMvzZ")
             ],[
-                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/R_MvzZ")
+                InlineKeyboardButton(text=f"REPORT A BUG", url=f"https://telegram.me/Off_Topic_discussion")
             ],[
-                InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://telegram.me/REQUEST_MOvizZ")
+                InlineKeyboardButton(text=f"⚡️JOIN", url=f"https://telegram.me/REQUEST_MOvizZ")
             ]]
             btn_lzdv = [
                 [
@@ -916,11 +915,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         # Send message to user
         try:
             btn = [[
-                InlineKeyboardButton(text=f"🔍 Search Here 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
+                InlineKeyboardButton(text=f"Search again", url=f"https://telegram.me/Global_Ent_RMvzZ")
             ],[
-                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/R_MvzZ")
+                InlineKeyboardButton(text=f"REPORT A BUG", url=f"https://telegram.me/Off_topic_discussion")
             ],[
-                InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://telegram.me/REQUEST_MOvizZ")
+                InlineKeyboardButton(text=f"⚡️JOIN BACKUP", url=f"https://telegram.me/REQUEST_MOvizZ")
 
             ]]
             btn_lzdv = [
@@ -944,11 +943,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         # Send message to user
         try:
             btn = [[
-                InlineKeyboardButton(text=f"🔍 Search Here 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
+                InlineKeyboardButton(text=f"Search Again", url=f"https://telegram.me/Global_Ent_RMvzZ")
             ],[
-                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/R_MvzZ")
+                InlineKeyboardButton(text=f"REPORT A BUG", url=f"https://telegram.me/Off_Topic_discussion")
             ],[
-                InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://telegram.me/REQUEST_MOvizZ")
+                InlineKeyboardButton(text=f"⚡️JOIN BACKUP", url=f"https://telegram.me/REQUEST_MOvizZ")
             ]]
             btn_lzdv = [
                 [
@@ -971,9 +970,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         # Send message to user
         try:
             btn = [[
-                InlineKeyboardButton(text=f"💛 Request More 💛", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
+                InlineKeyboardButton(text=f"WATCH MORE", url=f"https://telegram.me/Global_Ent_RMvzZ")
             ],[
-                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/R_MvzZ")
+                InlineKeyboardButton(text=f"REPORT A BUG", url=f"https://telegram.me/Off_Topic_Discussion")
             ],[
                 InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://telegram.me/REQUEST_MOvizZ")
 
@@ -1608,7 +1607,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("HeyDear! The requested content is currently unavailable in our database,\n We sent your Please have some patience and Discuss issue with admin here 👉  Movies_series_Requestbot")
+        k = await msg.reply("HeyDear! The requested content is currently unavailable in our database,\n We sent your Please have some patience and Discuss issue with admin here:- @Movies_series_Requestbot")
         await asyncio.sleep(10)
         await k.delete()
         return
@@ -1622,8 +1621,7 @@ async def advantage_spell_chok(msg):
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
     await msg.reply("HeyDear, did you meant any of below Requests?\n yet not available in below requests then plz\n request here:- @Movies_series_Requestbot",
                     reply_markup=InlineKeyboardMarkup(btn))
-
-
+    
 async def manual_filters(client, message, text=False):
     group_id = message.chat.id
     name = text or message.text
