@@ -23,7 +23,7 @@ async def lazy_answer(client, message):
                     presence_penalty = 0.0,
                 )
                 btn=[
-                        [InlineKeyboardButton(text=f"⇱🤷‍♀️ Take Action 🗃️⇲", url=f'https://telegram.me/{temp.U_NAME}')],
+                        [InlineKeyboardButton(text=f"⇱🤷‍♀️ Take Action 🗃️⇲", url=f'https://telegram.me/MissValentinaa_Bot')],
                         [InlineKeyboardButton(text=f"🗑 Delete log ❌", callback_data=f'close_data')],
                     ]
                 reply_markup=InlineKeyboardMarkup(btn)

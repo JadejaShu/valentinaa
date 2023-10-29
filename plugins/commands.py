@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('🔔 Updates 🤖', url='https://telegram.me/R_MvzZ')
             ],
             [
-                InlineKeyboardButton('🙆🏻 Help 🦾', url=f"https://telegram.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('🙆🏻 Help 🦾', url=f"https://telegram.me/MissValentinaa_Bot?start=help"),
             ],[
             InlineKeyboardButton('JOIN BACKUP', url='https://telegram.me/REQUEST_MOvizZ')
             ],
@@ -47,7 +47,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://telegram.me/MissValentinaa_Bot?startgroup=true')
             ],[
             InlineKeyboardButton('🧞‍♀️ Search 🧐', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🔔 Updates 🤖', url='https://telegram.me/R_MvzZ')
@@ -90,7 +90,7 @@ async def start(client, message):
                 pre = 'checksubp' if kk == 'filep' else 'checksub' 
                 btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"{pre}#{file_id}")])
             except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton(" 🔄 Try Again", url=f"https://telegram.me/{temp.U_NAME}?start={message.command[1]}")])
+                btn.append([InlineKeyboardButton(" 🔄 Try Again", url=f"https://telegram.me/MissValentinaa_Bot?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**Please Join My Updates Channel to use this Bot!**",
@@ -100,7 +100,7 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://telegram.me/MissValentinaa_Bot?startgroup=true')
             ],[
             InlineKeyboardButton('🧞‍♀️ Search 🧐', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🔔 Updates 🤖', url='https://telegram.me/R_MvzZ')
