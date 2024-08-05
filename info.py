@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ['7403548'])
+API_HASH = environ['251a611d9c8bc2f5d3223bf0a55da487']
+BOT_TOKEN = environ['5065015315:AAEe7vczltUfz2Hh-Ioq_Q6N_KPFgXW7Hds']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 900))
@@ -23,7 +23,7 @@ PICS = (environ.get('PICS', '')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001560296173 -1001599156099 -1001599156099 -1001527864412').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
@@ -32,8 +32,8 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "LazyDeveloper")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://harshsoni:QOiuh213MSIK@cluster0.8bd5tkd.mongodb.net/")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
@@ -49,7 +49,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), False)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001644577352')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), False)
@@ -65,7 +65,7 @@ REQ_CHANNEL = int(environ.get('REQ_CHANNEL'))
 #ai
 OPENAI_API = environ.get("OPENAI_API","")
 AI = is_enabled((environ.get("AI","True")), False)
-LAZY_AI_LOGS = int(environ.get("LAZY_AI_LOGS","")) #GIVE YOUR NEW LOG CHANNEL ID TO STORE MESSAGES THAT THEY SEARCH IN .... [ i have added this to keep an eye on the users message, to avoid misuse of bot ]
+LAZY_AI_LOGS = int(environ.get("LAZY_AI_LOGS","-1001644577352")) #GIVE YOUR NEW LOG CHANNEL ID TO STORE MESSAGES THAT THEY SEARCH IN .... [ i have added this to keep an eye on the users message, to avoid misuse of bot ]
 # Requested Content template variables ---
 ADMIN_USRNM = environ.get('ADMIN_USRNM','real_heros') # WITHOUT @
 MAIN_CHANNEL_USRNM = environ.get('MAIN_CHANNEL_USRNM','@REQUEST_MOvizz') # WITHOUT @
