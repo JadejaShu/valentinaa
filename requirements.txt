@@ -23,4 +23,4 @@ pyshorteners
 psutil
 pyromod
 colorama
-
+gunicorn
